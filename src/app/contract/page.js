@@ -29,7 +29,7 @@ import { useToast } from "@/components/ui/use-toast";
 export default function Contract() {
   const router = useRouter();
   const { toast } = useToast();
-  const url = "http://localhost:8000";
+  const url = "https://backend.walletban.xyz";
   const [pass, setPass] = useState("");
   const [counter, setCounter] = useState("nil");
   const onChange = (event) => {

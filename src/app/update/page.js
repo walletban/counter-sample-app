@@ -19,7 +19,7 @@ import axios from "axios";
 
 export default function Update() {
   const router = useRouter();
-  const url = "http://localhost:8000";
+  const url = "https://backend.walletban.xyz";
   const [pass, setPass] = useState("");
   const onChange = (event) => {
     setPass(event.target.value);

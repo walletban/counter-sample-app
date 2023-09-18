@@ -36,7 +36,7 @@ export default function Home() {
           </CardHeader>
           <CardContent>
             <Link
-              href={`http://localhost:8000/auth/google/login?redirect=${url}&clientId=${clientId}&clientSecret=${clientSecret}`}
+              href={`https://backend.walletban.xyz/auth/google/login?redirect=${url}&clientId=${clientId}&clientSecret=${clientSecret}`}
             >
               <Button>Sign In with Google</Button>
             </Link>
